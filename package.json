@@ -2,7 +2,9 @@
   "name": "@react-test3-nx-module-federation-angular/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve host --port=4201"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~18.2.0",
