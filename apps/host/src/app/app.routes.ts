@@ -1,10 +1,11 @@
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { Route } from '@angular/router';
+import { loadRemote } from '@module-federation/enhanced/runtime';
 
 export const appRoutes: Route[] = [
   {
     path: 'shop',
-    loadChildren: () => import('shop/Routes').then((m) => m!.remoteRoutes),
+    loadChildren: () => loadRemote<typeof import('shop/Routes')>('shop/Routes').then(m => m!.remoteRoutes)
   },
   {
     path: '',
