@@ -14,7 +14,9 @@ const config: ModuleFederationConfig = {
    * declare module 'my-external-remote';
    *
    */
-  remotes: [['shop', 'http://localhost:4201/remoteEntry.mjs']],
+  remotes: [
+    ['shop', 'http://localhost:4201/remoteEntry.mjs'],
+  ],
 };
 
 /**

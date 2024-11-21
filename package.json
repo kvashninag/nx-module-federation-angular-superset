@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve host --port=4201"
+    "start": "nx serve host --proxy-config proxy.conf.js"
   },
   "private": true,
   "devDependencies": {
     "@angular-devkit/build-angular": "~18.2.0",
+    "@angular-architects/module-federation": "18.0.6",
+    "@angular-architects/module-federation-tools": "18.0.6",
     "@angular-devkit/core": "~18.2.0",
     "@angular-devkit/schematics": "~18.2.0",
     "@angular/cli": "~18.2.0",

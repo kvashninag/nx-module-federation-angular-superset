@@ -1,0 +1,65 @@
+<!--<div id="app" [attr.data-bootstrap]="dataTest">-->
+
+<!--</div>-->
+
+<head>
+  <title>[DEV]
+    Superset
+  </title>
+  <link rel="icon" type="image/png" href="http://localhost:9001/static/assets/images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/flags/flags16.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/fontawesome/fontawesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/fontawesome/regular.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/fontawesome/solid.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/fontawesome/brands.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/bootstrap-datepicker/bootstrap-datepicker3.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/select2/select2.min.css"/>
+  <link rel="stylesheet" type="text/css" href="http://localhost:9001/static/appbuilder/css/select2/select2-bootstrap.min.css"/>
+  <!-- DEV bundle: theme css START -->
+  <!-- DEV bundle: theme css END -->
+  <!-- DEV bundle: spa css START -->
+  <!-- DEV bundle: spa css END -->
+  <!-- DEV bundle: theme js START -->
+  <script src="http://localhost:9001/static/assets/theme.9b3b7604.entry.js"></script>
+  <!-- DEV bundle: theme js END -->
+  <input type="hidden" name="csrf_token" id="csrf_token" value="ImZlMTBhNjdkMTZlMTc5MDU5OWYwNTE5ZjA4YzIyYzU0MDQ0OGZlNmYi.Zz7GqQ.QZBIjvgVOKsdwoB-PK-WJDUJJsk"/>
+</head>
+<body>
+<div id="app" [attr.data-bootstrap]="dataTest">
+  <img src="http://localhost:9001/static/assets/images/loading.gif" style="
+          width: 50px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "/>
+  <router-outlet></router-outlet>
+</div>
+<!-- Modal for misc messages / alerts  -->
+<div class="misc-modal modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" data-test="modal-content">
+      <div class="modal-header" data-test="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-test="modal-header-close-button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 data-test="modal-title" class="modal-title"></h4>
+      </div>
+      <div data-test="modal-body" class="modal-body"></div>
+      <div data-test="modal-footer" class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- DEV bundle: spa js START -->
+<script src="http://localhost:9001/static/assets/thumbnail.a19b0ff2.entry.js"></script>
+<script src="http://localhost:9001/static/assets/vendors-node_modules_emotion_react_dist_emotion-react_browser_esm_js-node_modules_emotion_sty-e32a35.28fa7aaf.entry.js"></script>
+<script src="http://localhost:9001/static/assets/vendors-node_modules_ant-design_icons_es_components_Icon_js-node_modules_ant-design_icons_es_-952644.e4c474fa.entry.js"></script>
+<script src="http://localhost:9001/static/assets/vendors-node_modules_reduxjs_toolkit_dist_query_react_rtk-query-react_esm_js-node_modules_abo-e0c752.d9992b5e.entry.js"></script>
+<script src="http://localhost:9001/static/assets/vendors-node_modules_ant-design_icons_es_icons_EyeInvisibleOutlined_js-node_modules_ant-desig-79ffdc.56a3ddff.entry.js"></script>
+<script src="http://localhost:9001/static/assets/node_modules_moment_locale_sync_recursive_-src_components_ErrorBoundary_index_tsx-src_compone-949c70.a0092ce5.entry.js"></script>
+<script src="http://localhost:9001/static/assets/spa.f0f72fc4.entry.js"></script>
+<!-- DEV bundle: spa js END -->
+</body>
